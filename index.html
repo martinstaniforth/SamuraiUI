@@ -10,7 +10,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="/content/css.css" rel="stylesheet"/>
+    <link href="/Content/css.css" rel="stylesheet"/>
 
 
     <script type="text/javascript">
@@ -26,23 +26,32 @@
     
     <div id="applicationHost">
         <div class="page-splash"></div>
-<div class="page-splash-message">
-    Value Samurai
-</div>
-<div class="progress progress-striped active page-progress-bar">
-    <div class="bar" style="width: 100%;"></div>
-</div>
+<div class="splash-wrapper">
+  <div class="page-splash-message elevator-pitch">
+      <img class="logo-img" src="content/images/val-sam.png" alt="Value Samurai" />
+  </div>
+  <div class="progress progress-striped active page-progress-bar">
+      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemax="100" style="width: 100%;">
+        <span class="sr-only">Loading</span>
+      </div>
+  </div>
+ </div>
 
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.js"></script>
+
     <script src="/scripts/vendor.js"></script>
+
     <script src="/scripts/signalr.js"></script>
+
     <script src="/scripts/crossfilter.js"></script>
+  
     <script src="/scripts/dc.js"></script>
 
-    <!--<script src="http://localhost:3600/signalr/hubs"></script>-->
-    <script type="text/javascript" src="/scripts/main-built.js"></script>
+    
+    <script src="http://samuraiapi.apphb.com/signalr/hubs"></script>
+    <script type="text/javascript" src="/App/main-built.js"></script>
     <script>
       (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
