@@ -1,8 +1,6 @@
 CACHE MANIFEST
-# 2013-08-29
+# 2013-08-30
 
-content\css.css
-content\Performance.csv
 content\font\fontawesome-webfont.eot
 content\font\fontawesome-webfont.svg
 content\font\fontawesome-webfont.ttf
@@ -15,8 +13,3 @@ content\images\lightpaper-2.png
 content\images\search.png
 content\images\top-paint.png
 content\images\val-sam.png
-scripts\crossfilter.js
-scripts\dc.js
-scripts\main-built.js
-scripts\signalr.js
-scripts\vendor.js
