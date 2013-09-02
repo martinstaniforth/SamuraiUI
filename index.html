@@ -3,8 +3,7 @@
 <html>
   <head>
     <title>Value Samurai</title>
-    <meta charset="utf-8" />
-    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="telephone=no"/>
@@ -13,16 +12,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="content/css.css" rel="stylesheet"/>
 	<link rel="icon" type="image/png" href="content/images/icon.png">
-
-
-    <script type="text/javascript">
-        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-            var msViewportStyle = document.createElement("style");
-            var mq = "@-ms-viewport{width:auto!important}";
-            msViewportStyle.appendChild(document.createTextNode(mq));
-            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-        }
-    </script>
+	
   </head>
   <body>
     
@@ -41,18 +31,14 @@
 
     </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.js"></script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script src="scripts/vendor.js"></script>
-
-    <script src="scripts/signalr.js"></script>
-
+    <!--<script src="scripts/signalr.js"></script>-->
     <script src="scripts/crossfilter.js"></script>
-  
     <script src="scripts/dc.js"></script>
 
     
-    <script src="http://samuraiapi.apphb.com/signalr/hubs"></script>
+    <!--<script src="http://samuraiapi.apphb.com/signalr/hubs"></script>-->
     <script type="text/javascript" src="scripts/main-built.js"></script>
     <script>
       (function (i, s, o, g, r, a, m) {
